@@ -20,3 +20,6 @@
         + 请在 参考书2 或 教材 中选择一个类图（给出参考书页码图号）
         page 145
         [图片] 
+        https://github.com/lp-github/lp-github.github.io/blob/master/images/posts/UMLet/homework2_basicUMLClass.PNG
+
+        https://github.com/lp-github/lp-github.github.io/blob/master/_posts/lp-github.github.io/images/posts/UMLet/homework2_basicUMLClass.PNG
