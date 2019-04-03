@@ -25,3 +25,5 @@ def main():
     tokenize(words1)
     parse(words2)
 main()
+import time
+time.sleep(5)
