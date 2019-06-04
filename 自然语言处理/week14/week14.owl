@@ -1,0 +1,598 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/liping/ontologies/2019/5/untitled-ontology-13"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/liping/ontologies/2019/5/untitled-ontology-13">
+    <Prefix name="" IRI="http://www.semanticweb.org/liping/ontologies/2019/5/untitled-ontology-13#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#University"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amherst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#campus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#department"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belongsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#东校园"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#中国语言文学系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#中山医学院"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#中山大学"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#光华口腔医学院"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#公共卫生学院"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#北校园"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#医学院"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#南校园"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#历史学系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#哲学系"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#国际翻译学院"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#国际金融学院"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#广州校区"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#政治与公共事务管理学院"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#旅游学院"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#材料学院"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#法学院"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#深圳校区"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#深圳校园"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#珠海校区"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#珠海校园"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#生物医学工程学院"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#管理学院"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#University"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#amherst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amherst"/>
+        <Class IRI="#University"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amherst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#campus"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amherst"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#belongsTo"/>
+            <Class IRI="#University"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#campus"/>
+        <Class IRI="#amherst"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#campus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#department"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#campus"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#belongsTo"/>
+            <Class IRI="#amherst"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#department"/>
+        <Class IRI="#campus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#department"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#belongsTo"/>
+            <Class IRI="#campus"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#campus"/>
+        <NamedIndividual IRI="#东校园"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#中国语言文学系"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#中山医学院"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University"/>
+        <NamedIndividual IRI="#中山大学"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#光华口腔医学院"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#公共卫生学院"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#campus"/>
+        <NamedIndividual IRI="#北校园"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#医学院"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#campus"/>
+        <NamedIndividual IRI="#南校园"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#历史学系"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#哲学系"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#国际翻译学院"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#国际金融学院"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amherst"/>
+        <NamedIndividual IRI="#广州校区"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#政治与公共事务管理学院"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#旅游学院"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#材料学院"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#法学院"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amherst"/>
+        <NamedIndividual IRI="#深圳校区"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#campus"/>
+        <NamedIndividual IRI="#深圳校园"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#amherst"/>
+        <NamedIndividual IRI="#珠海校区"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#campus"/>
+        <NamedIndividual IRI="#珠海校园"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#生物医学工程学院"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#department"/>
+        <NamedIndividual IRI="#管理学院"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#东校园"/>
+        <NamedIndividual IRI="#广州校区"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#东校园"/>
+        <NamedIndividual IRI="#政治与公共事务管理学院"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#东校园"/>
+        <NamedIndividual IRI="#法学院"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#东校园"/>
+        <NamedIndividual IRI="#管理学院"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#中国语言文学系"/>
+        <NamedIndividual IRI="#南校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#中山医学院"/>
+        <NamedIndividual IRI="#北校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#中山大学"/>
+        <NamedIndividual IRI="#广州校区"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#中山大学"/>
+        <NamedIndividual IRI="#深圳校区"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#中山大学"/>
+        <NamedIndividual IRI="#珠海校区"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#光华口腔医学院"/>
+        <NamedIndividual IRI="#北校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#公共卫生学院"/>
+        <NamedIndividual IRI="#北校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#北校园"/>
+        <NamedIndividual IRI="#广州校区"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#北校园"/>
+        <NamedIndividual IRI="#中山医学院"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#北校园"/>
+        <NamedIndividual IRI="#光华口腔医学院"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#北校园"/>
+        <NamedIndividual IRI="#公共卫生学院"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#医学院"/>
+        <NamedIndividual IRI="#深圳校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#南校园"/>
+        <NamedIndividual IRI="#广州校区"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#南校园"/>
+        <NamedIndividual IRI="#中国语言文学系"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#南校园"/>
+        <NamedIndividual IRI="#历史学系"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#南校园"/>
+        <NamedIndividual IRI="#哲学系"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#历史学系"/>
+        <NamedIndividual IRI="#南校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#哲学系"/>
+        <NamedIndividual IRI="#南校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#国际翻译学院"/>
+        <NamedIndividual IRI="#珠海校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#国际金融学院"/>
+        <NamedIndividual IRI="#珠海校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#广州校区"/>
+        <NamedIndividual IRI="#中山大学"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#广州校区"/>
+        <NamedIndividual IRI="#东校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#广州校区"/>
+        <NamedIndividual IRI="#北校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#广州校区"/>
+        <NamedIndividual IRI="#南校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#政治与公共事务管理学院"/>
+        <NamedIndividual IRI="#东校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#旅游学院"/>
+        <NamedIndividual IRI="#珠海校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#材料学院"/>
+        <NamedIndividual IRI="#深圳校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#法学院"/>
+        <NamedIndividual IRI="#东校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#深圳校区"/>
+        <NamedIndividual IRI="#中山大学"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#深圳校区"/>
+        <NamedIndividual IRI="#深圳校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#深圳校园"/>
+        <NamedIndividual IRI="#深圳校区"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#深圳校园"/>
+        <NamedIndividual IRI="#医学院"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#深圳校园"/>
+        <NamedIndividual IRI="#材料学院"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#深圳校园"/>
+        <NamedIndividual IRI="#生物医学工程学院"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#珠海校区"/>
+        <NamedIndividual IRI="#中山大学"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#珠海校区"/>
+        <NamedIndividual IRI="#珠海校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#珠海校园"/>
+        <NamedIndividual IRI="#珠海校区"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#珠海校园"/>
+        <NamedIndividual IRI="#国际翻译学院"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#珠海校园"/>
+        <NamedIndividual IRI="#国际金融学院"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes"/>
+        <NamedIndividual IRI="#珠海校园"/>
+        <NamedIndividual IRI="#旅游学院"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#生物医学工程学院"/>
+        <NamedIndividual IRI="#深圳校园"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#belongsTo"/>
+        <NamedIndividual IRI="#管理学院"/>
+        <NamedIndividual IRI="#东校园"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#includes"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectProperty IRI="#includes"/>
+    </InverseObjectProperties>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#belongsTo"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#includes"/>
+    </InverseFunctionalObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#belongsTo"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#includes"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#belongsTo"/>
+            <Class IRI="#amherst"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#belongsTo"/>
+            <Class IRI="#campus"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#belongsTo"/>
+            <Class IRI="#department"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#University"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#amherst"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#campus"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#belongsTo"/>
+            <Class IRI="#University"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#belongsTo"/>
+            <Class IRI="#amherst"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#belongsTo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#belongsTo"/>
+            <Class IRI="#campus"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#amherst"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#campus"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#includes"/>
+            <Class IRI="#department"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
