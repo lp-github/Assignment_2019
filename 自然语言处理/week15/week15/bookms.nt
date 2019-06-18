@@ -1,0 +1,73 @@
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/0/0> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_uid> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#user/0> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/1/0> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_uid> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#user/0> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/1/1> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_uid> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#user/1> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/2/1> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_uid> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#user/1> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/0/0> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_bid> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/0> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/0/0> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_description> "user 0 borrow book 0" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/0/0> <http://www.w3.org/2000/01/rdf-schema#label> "record #0/0" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/0/0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/1/0> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_bid> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/1> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/1/0> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_description> "user 0 borrow book 1" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/1/0> <http://www.w3.org/2000/01/rdf-schema#label> "record #1/0" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/1/0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/1/1> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_bid> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/1> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/1/1> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_description> "user 1 borrow book 1" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/1/1> <http://www.w3.org/2000/01/rdf-schema#label> "record #1/1" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/1/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/2/1> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_bid> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/2> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/2/1> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_description> "user 1 borrow book 2" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/2/1> <http://www.w3.org/2000/01/rdf-schema#label> "record #2/1" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#record/2/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#user/0> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/user_name> "user0" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#user/0> <http://www.w3.org/2000/01/rdf-schema#label> "user #0" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#user/0> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/user_uid> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#user/0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/user> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#user/1> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/user_name> "user1" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#user/1> <http://www.w3.org/2000/01/rdf-schema#label> "user #1" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#user/1> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/user_uid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#user/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/user> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#tablename> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/tablename> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/0> <http://www.w3.org/2000/01/rdf-schema#label> "book #0" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/0> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_description> "this is book0" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/0> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_bid> "0"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/0> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_name> "book0" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/1> <http://www.w3.org/2000/01/rdf-schema#label> "book #1" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/1> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_description> "this is book1" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/1> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_bid> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/1> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_name> "book1" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/2> <http://www.w3.org/2000/01/rdf-schema#label> "book #2" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/2> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_description> "this is book2" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/2> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_bid> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/2> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_name> "book2" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/bookms.nt#book/2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book> <http://www.w3.org/2000/01/rdf-schema#label> "book" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/tablename_name> <http://www.w3.org/2000/01/rdf-schema#label> "tablename name" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/tablename_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/user> <http://www.w3.org/2000/01/rdf-schema#label> "user" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/user> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/user_name> <http://www.w3.org/2000/01/rdf-schema#label> "user name" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/user_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_name> <http://www.w3.org/2000/01/rdf-schema#label> "book name" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/tablename_id> <http://www.w3.org/2000/01/rdf-schema#label> "tablename id" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/tablename_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/tablename> <http://www.w3.org/2000/01/rdf-schema#label> "tablename" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/tablename> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_bid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_description> <http://www.w3.org/2000/01/rdf-schema#label> "record description" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_description> <http://www.w3.org/2000/01/rdf-schema#label> "book description" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/user_uid> <http://www.w3.org/2000/01/rdf-schema#label> "user uid" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/user_uid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/tablename_description> <http://www.w3.org/2000/01/rdf-schema#label> "tablename description" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/tablename_description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record_uid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_bid> <http://www.w3.org/2000/01/rdf-schema#label> "book bid" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/book_bid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record> <http://www.w3.org/2000/01/rdf-schema#label> "record" .
+<file:///home/liping/\u4E0B\u8F7D/d2rq-0.8.1/vocab/record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
