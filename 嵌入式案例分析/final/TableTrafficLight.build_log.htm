@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\Keil\EE319KwareSpring2016\final\TableTrafficLight.uvproj
+Project File Date:  04/02/2019
+
+<h2>Output:</h2>
+Build target 'TableTrafficLight'
+compiling TableTrafficLight.c...
+TableTrafficLight.c(216): warning:  #177-D: variable "i" was declared but never referenced
+        char i;
+TableTrafficLight.c(217): warning:  #177-D: variable "string" was declared but never referenced
+    char string[20];  // global to assist in debugging
+TableTrafficLight.c(218): warning:  #177-D: variable "n" was declared but never referenced
+    uint32_t n;
+TableTrafficLight.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=3032 RO-data=32 RW-data=228 ZI-data=1124  
+".\TableTrafficLight.axf" - 0 Error(s), 3 Warning(s).
+Load "D:\\Keil\\EE319KwareSpring2016\\final\\TableTrafficLight.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\Keil\\EE319KwareSpring2016\\final\\TableTrafficLight.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\Keil\\EE319KwareSpring2016\\final\\TableTrafficLight.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>
+ #223-D: function "RxFifo_Size" declared implicitly
+    while(((UART0_FR_R&UART_FR_RXFE) == 0) && (RxFifo_Size() < (FIFOSIZE - 1))){
+UART.c(109): warning:  #223-D: function "RxFifo_Put" declared implicitly
+      RxFifo_Put(letter);
+UART.c(116): warning:  #223-D: function "TxFifo_Size" declared implicitly
+    while(((UART0_FR_R&UART_FR_TXFF) == 0) && (TxFifo_Size() > 0)){
+UART.c(117): warning:  #223-D: function "TxFifo_Get" declared implicitly
+      TxFifo_Get(&letter);
+UART.c(125): warning:  #223-D: function "RxFifo_Get" declared implicitly
+    while(RxFifo_Get(&letter) == FIFOFAIL){};
+UART.c(131): warning:  #223-D: function "TxFifo_Put" declared implicitly
+    while(TxFifo_Put(data) == FIFOFAIL){};
+UART.c(145): warning:  #223-D: function "TxFifo_Size" declared implicitly
+      if(TxFifo_Size() == 0){             // software TX FIFO is empty
+UART.c: 10 warnings, 6 errors
+".\TableTrafficLight.axf" - 6 Error(s), 10 Warning(s).
+Target not created
