@@ -23,9 +23,9 @@
 + Massive MIMO
 + ...课后题答案
 ##课后题答案
-+ which mobile communication systems suport MIMO Technology?
+1. which mobile communication systems suport MIMO Technology?
   A: 4G & 5G
-+ What are the key transmission technologies of 5G(list at lease three)?
+2. What are the key transmission technologies of 5G(list at lease three)?
   A:
     + 认知无线电
     + 频谱扩展技术
@@ -102,6 +102,8 @@ log\space det(I_{n_r}+\frac{1}{N_0}HK_xH^*)
 $$
 2. For the MIMO channel $y=Hx+w$, how to parallelize it?
 # 第四讲
+## The concept of Massive MIMO
+基站使用大规模的天线阵列，称为大规模MIMO
 1. What are the advantages of Massive MIMO technology?
    + Capacity enhancement
    + Mathematically Exact
@@ -118,6 +120,12 @@ Pd=10dB=10^{\frac{10}{10}}=10\newline
 C=4*log_2(1+Pd)=4*log_2(11)
 $$
 # 第五讲
+## Cognitive wireless networks
+## Spectrum sensing
+ 快速可靠的发现可用频谱资源，是认知无线通信的基础。
+ + 直接感知
+ + 间接感知
+## Cognitive wireless transmission
 1. What kind of radio system is congnitive radio?
    A:
    **认知无线电**是可以通过与工作环境的交互，自主调整参数及其工作模式或工作方式的无线电系统。
@@ -130,6 +138,16 @@ $$
    + 基于干扰门限(underlay)
 
 # 第六讲
+
+**可见光通信**
+## VLC Indoor application
+  + 移动对移动
+  + 移动对固定电话
+  + 移动对基础设施
+  + 固定电话对基础设施
+  
+
+## Channel modelling of VLC
 1. Give some application examples of VLC.
    + 外围接口
    + 信息传播
@@ -143,6 +161,15 @@ $$
    + **Using in the restricted area**:机场，太空船，医院
    + **Eye safety**
 # 第七讲
+## Three "Canonical" Models/Modes of Wireless Powered Communication
+   + WPT：无线能量传输
+   + WPCN：无线能量通信网络
+   + SWIPT：同时无线信息和能量传输
+## Wireless Powered Communication Applications
+   + Internet of Things/Everything
+   + WPT使能频射识别
+   + WPT使能无线传感器网络
+  
 1. What are the main Wireless Power Transfer(WPT) technologies?
    + 电感耦合
    + 磁共振耦合
@@ -166,6 +193,7 @@ $$
 # 第九讲
 **通信**：信息的传送
 **光纤通信**：利用激光作为信息的载波信号，并通过光纤来传送信息的他通信系统。
+**光纤通信系统**：
 **光纤通信技术的主要优点**：
    + 光波频率很高，光纤传输的频带很宽，故**传输容量很大**。
    + 不受电磁干扰，保密性好。
