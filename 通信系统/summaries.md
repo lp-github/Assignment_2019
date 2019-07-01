@@ -1,28 +1,28 @@
 # 第一讲  
-##1g  
+## 1G  
 + **A** network and **B** network  
 + Simulation system  
 + FDMA  
-##2G  
+## 2G  
 + **C** network, **G** network and **D** network  
 + Digital system  
 + TDMA  
-##2.5G  
+## 2.5G  
 + **GPRS**  
 + **EDGE**  
 + **WAP**  
-##3G  
+## 3G  
 + **CDMA**  
-##4G  
+## 4G  
 + **TD-LTE** and **FDD-LTE**  
 + **OFDM** 正交频分复用  
 + **MIMO**  
-##5G  
+## 5G  
 + Cognitive Radio  
 + Spectrum Expansion Technology  
 + Massive MIMO  
 + ...课后题答案  
-##课后题答案  
+## 课后题答案  
 1. which mobile communication systems suport MIMO Technology?  
   A: 4G & 5G  
 2. What are the key transmission technologies of 5G(list at lease three)?  
