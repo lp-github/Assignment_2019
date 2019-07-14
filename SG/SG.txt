@@ -1,0 +1,3 @@
+dsr论文实验
+REIDN代码 特征提取 负样本采样
+faster-rcnn
